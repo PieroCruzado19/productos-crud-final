@@ -3,7 +3,8 @@ const tabla = document.getElementById("tablaProductos");
 const btnSubmit = document.getElementById("btnSubmit");
 
 let editandoId = null;
-const API_URL = "http://localhost:4000/api/productos";
+const API_URL = "https://productos-crud-final.onrender.com/api/productos";
+
 
 // Crear o actualizar producto
 form.addEventListener("submit", async (e) => {
